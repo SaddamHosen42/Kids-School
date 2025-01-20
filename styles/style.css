@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.raleway-font {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* commmon styles */
+.header-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.header-description {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgb(17, 17, 17);
+    margin: 24px 0;
+}
+
+.btn-primary {
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 50px;
+}
+
+.section-title {
+    font-size: 2.875rem;
+    font-weight: 700;
+    margin: 80px 0;
+}
+
+.card-subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 32px 0;
+}
+
+.card-description {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(128, 128, 128);
+}
+
+.desplay-flex {
+    display: flex;
+}
+
+/* header section  */
+header {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* navber */
+.navber {
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.left {
+    align-items: center;
+    gap: 12px;
+}
+
+.right {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-container {
+    list-style: none;
+    gap: 32px;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#nav-btn {
+    background: rgb(254, 163, 1);
+}
+
+.nav-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+}
