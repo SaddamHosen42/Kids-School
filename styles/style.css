@@ -110,3 +110,36 @@ header {
     font-weight: 700;
     color: rgb(17, 17, 17);
 }
+
+#menu-icon{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* responsive media query */
+/* mobile device */
+@media screen and (max-width:576px) {
+    .nav-title,
+    .link-container,
+    #nav-btn{
+        display: none;
+    }
+    .navber{
+        border: 0.5px solid rgb(254, 163, 1);
+    }
+    .left img{
+        margin-left: 16px;
+        width: 50px;
+    }
+    #menu-icon{
+        display: block;
+        font-size: 2.5rem;
+        padding-right: 20px;
+    }
+}
