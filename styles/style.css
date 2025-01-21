@@ -28,6 +28,24 @@
 }
 
 /* commmon styles */
+/* Sky Blue */
+.sky-blue {
+    color: rgb(1, 172, 253);
+}
+
+/* orange */
+.orange {
+    color: rgb(254, 163, 1);
+}
+
+.sky-blue-2 {
+    color: rgb(5, 212, 223);
+}
+
+.blue {
+    color: rgb(93, 88, 239);
+}
+
 .header-title {
     font-size: 3.5rem;
     font-weight: 700;
