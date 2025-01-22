@@ -355,7 +355,12 @@ header {
     margin-top: 42px;
 }
 
-
+.marquee-text{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:rgb(30, 139, 241);
+    margin-top: 20px;
+}
 
 /* responsive media query */
 /* mobile device */
